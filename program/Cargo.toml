@@ -15,9 +15,9 @@ no-entrypoint = []
 
 [dependencies]
 solana-program = { git = "https://github.com/solana-labs/solana.git", rev = "b1e378009ffee4c75965723d3317fccbebcf2524" }
-spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-token", features = ["no-entrypoint"] }
-spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-discriminator" }
-spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-program-error" }
+spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "3c730e545f179fb18b8e0510706ae9019c84974b", package = "spl-token", features = ["no-entrypoint"] }
+spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "3c730e545f179fb18b8e0510706ae9019c84974b", package = "spl-discriminator" }
+spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "3c730e545f179fb18b8e0510706ae9019c84974b", package = "spl-program-error" }
 assert_matches = "1.5.0"
 num-derive = "0.4"
 num-traits = "0.2"
