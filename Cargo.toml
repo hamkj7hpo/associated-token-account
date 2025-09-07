@@ -15,4 +15,4 @@ lint = "nightly-2025-02-16"
 config = "scripts/spellcheck.toml"
 
 [patch.crates-io]
-zeroize = "1.3.0"
+zeroize = { version = "=1.3.0" }
