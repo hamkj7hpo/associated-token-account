@@ -14,7 +14,7 @@ crate-type = ["cdylib", "lib"]
 no-entrypoint = []
 
 [dependencies]
-solana-program = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat" }
+solana-program = { path = "/tmp/deps/solana/sdk/program", features = ["solana_program_zeroize"] }
 spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-token", features = ["no-entrypoint"] }
 spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-discriminator" }
 spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-program-error" }
